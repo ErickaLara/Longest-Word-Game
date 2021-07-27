@@ -1,0 +1,88 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Otomanopee+One&display=swap');
+
+body {
+  font-family: 'Otomanopee One', sans-serif;
+  color: #F5F7B2;
+  font-weight: 300;
+  padding: 0 24px;
+  background-image: url(https://i.pinimg.com/474x/e8/f5/f7/e8f5f7514cf3428b538017ed09e331c7.jpg);
+  padding-top: 30px;
+}
+
+p {
+    font-family: 'Otomanopee One', sans-serif;
+    font-weight: 300;
+    color: #EDEDD0;
+  }
+
+.container {
+  width: 43%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 400;
+  font-family: 'Lobster', cursive;
+  color: #FAF3F3;
+  padding-bottom: 15px;
+}
+
+.letters {
+  padding-left: 0;
+  font-size: 24px;
+  list-style: none;
+  font-family: monospace;
+  li {
+    background-color: transparent;
+    color: #064420;
+    border: 1px solid #064420;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 4px 12px;
+    display: inline;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+form label {
+  color: #FFE9D6;
+  padding-bottom: 20px;
+}
+
+input[type="text"], input[type="submit"] {
+  background-color: transparent;
+  border: 1px solid #A9F1DF;
+}
+
+input[type="text"] {
+  width: 75%;
+  padding: 10px;
+  color: #FFE9D6;
+  transition: .4s;
+}
+
+input[type="text"]:focus {
+  border: 1px solid #233E8B;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  width: 15%;
+  color: #FFE9D6;
+  transition: .3s;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #233E8B;
+  border: 1px solid #233E8B;
+  font-weight: 500;
+}
